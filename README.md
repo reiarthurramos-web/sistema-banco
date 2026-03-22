@@ -1,4 +1,6 @@
 # sistema financeiro simples
+Projeto de estudo em Python que simula um sistema financeiro simples com menu interativo.
+
 
 faturamento = 1200
 custo = 750.0
@@ -35,3 +37,29 @@ while True:
 
     else:
         print("Opção inválida, tente novamente!")
+
+
+
+
+## Funcionalidades
+- Adicionar faturamento
+- Visualizar lucro
+- Visualizar custo
+- Calcular margem de lucro
+- Menu interativo no console
+
+## Tecnologias
+- Python
+
+## Como executar
+1. Instale o Python no seu computador
+2. Baixe o arquivo do projeto
+3. Execute no terminal:
+
+python nome_do_arquivo.py
+
+## Objetivo
+Este projeto foi desenvolvido para praticar lógica de programação, uso de loops (while), condicionais (if/else) e entrada de dados com input.
+
+## Autor
+Arthur (estudante de programação)
