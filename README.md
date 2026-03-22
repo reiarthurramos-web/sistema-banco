@@ -1,19 +1,19 @@
-# sistema-financeiro-console
-Projeto de estudo em Python
+# sistema financeiro simples
 
- faturamento = 1200
+faturamento = 1200
 custo = 750.0
 
 while True:
     print("\n--- MENU ---")
     print("1 - Adicionar faturamento")
     print("2 - Ver lucro")
-    print("3 - Sair")
+    print("3 - Ver custo")
+    print("4 - Sair")
 
     opcao = input("Escolha uma opção: ")
 
     if opcao == "1":
-        valor = float(input("Digite o valor a adicionar: "))
+        valor = float(input("Digite o valor a adicionar: R$"))
         faturamento += valor
         print("Faturamento atualizado!")
 
@@ -22,13 +22,16 @@ while True:
         lucro = faturamento - custo - imposto
         margem_lucro = lucro / faturamento
 
-        print(f"Faturamento: R${faturamento}")
+        print(f"\nFaturamento: R${faturamento}")
         print(f"Lucro: R${lucro}")
-        print(f"Margem: {round(margem_lucro, 3)}")
+        print(f"Margem de lucro: {round(margem_lucro, 3)}")
 
     elif opcao == "3":
-        print("Saindo...")
+        print(f"\nCusto atual: R${custo}")
+
+    elif opcao == "4":
+        print("Saindo do sistema...")
         break
 
     else:
-        print("Opção inválida!")
+        print("Opção inválida, tente novamente!")
