@@ -1,5 +1,5 @@
 # sistema-financeiro-console
-Projeto de estudo em JavaScript
+Projeto de estudo em Python
 
  faturamento = 1200
 custo = 750.0
